@@ -1,0 +1,33 @@
+.page-footer h4 {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.page-footer p {
+  color: color: var(--white);
+  font-size: 0.9rem;
+}
+
+.page-footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  word-break: break-all;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.page-footer {
+  padding-top: 3em;
+  padding-bottom: .75em;
+  font-family: 'Albert Sans';
+}
+
+.page-footer .footer-links a {
+  font-family: 'Albert Sans';
+}
+
+.page-footer .footer-links li {
+  margin-bottom: 5px;
+  line-height: 2;
+}
+

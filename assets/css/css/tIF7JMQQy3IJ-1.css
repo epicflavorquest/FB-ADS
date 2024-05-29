@@ -1,0 +1,215 @@
+.m-AolFooter {
+  padding: 0 20px;
+  width: 100%;
+}
+
+.m-AolFooter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+}
+
+.m-AolFooter .container .logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 32px;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  padding: 15px 0 12px;
+  width: 100%;
+  border-bottom: 1px solid #e0e4e9;
+}
+
+.m-AolFooter .container .logo-wrap .logo svg {
+  fill: #000100;
+  height: 34px;
+  width: 86px;
+  margin-top: 5px;
+}
+
+.m-AolFooter .container .footer-links {
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+}
+
+.m-AolFooter .container .footer-links, .m-AolFooter .container .itemList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  order: 2;
+}
+
+.m-AolFooter .container .itemList {
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  text-align: left;
+  padding: 0 0 24px;
+}
+
+.m-AolFooter .container .itemList .item {
+  font-family: _OpenSans,OpenSans,Helvetica Neue,helvetica,arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 300;
+  list-style: none;
+  margin: 0 0 12px;
+  padding-right: 20px;
+  color: #6e7780;
+}
+
+.m-AolFooter .container .itemList .item .itemLink {
+  color: #6e7780;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.m-AolFooter .container .itemList .item .itemLink:hover {
+  color: #0f69ff;
+}
+
+.m-AolFooter .container .itemList .item.rowBreak {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.m-AolFooter .container .copyright {
+  font-family: _OpenSans,OpenSans,Helvetica Neue,helvetica,arial,sans-serif;
+  bottom: 0;
+  color: #6e7780;
+  font-size: 12px;
+  -webkit-box-ordinal-group: 11;
+  -ms-flex-order: 10;
+  order: 10;
+  right: 0;
+  text-align: left;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+}
+
+.m-AolFooter--grid {
+  padding: 0;
+  width: unset;
+}
+
+.m-AolFooter--grid .container {
+  max-width: none;
+}
+
+@media screen and (max-width:850px) {
+  .m-AolFooter .footer-links .links-foot .itemList .item.rowBreak {
+    display: none;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .footer-divider {
+    border-top: 1px solid #e0e4e9;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .itemList {
+    padding-bottom: 12px;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .footer-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .footer-links .links-foot .itemList {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .footer-links .links-foot .itemList .item {
+    margin-bottom: 20px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .logo-wrap {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+    border-bottom: none;
+    border-top: 1px solid #e0e4e9;
+    margin-bottom: 0;
+    padding: 15px 0 0;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .logo-wrap .logo svg {
+    height: 16px;
+    width: 41px;
+  }
+}
+
+@media screen and (max-width:753px) {
+  .m-AolFooter .container .copyright {
+    left: auto;
+    right: 0;
+  }
+}
+
+/* # sourceMappingURL=aol_footer.css.map */
+
