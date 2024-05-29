@@ -1,5 +1,0 @@
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: var(--color-picasso);
-  text-decoration: none;
-}
-
